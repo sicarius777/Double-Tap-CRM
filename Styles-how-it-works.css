@@ -3,7 +3,7 @@
 }
 
 .nav {
-
+    display: flex;
 }
 
 .double-tap {
@@ -19,7 +19,8 @@
 }
 
 .h-tags {
-    display:
+    display: flex;
+    justify-content: center;
 }
 
 .hsixtag {
@@ -27,7 +28,8 @@
 }
 
 .SignUpChat-btns {
-    display: ;
+    display: flex;
+    justify-content: center;
 }
 
 .four-p-tags {
