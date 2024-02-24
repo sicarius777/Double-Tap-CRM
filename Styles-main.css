@@ -1,2 +1,74 @@
 /*Zack's Style Sheet
-/* Show pull
+/* Show pull*/
+
+.nav-bar {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.double-tap {
+    display: flex;
+}
+
+.two-btns {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.h-tags {
+    display: ;
+}
+
+.hsixtag {
+    color: gray;
+}
+
+.SignUpChat {
+    display: ;
+}
+
+.four-p-tags {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.four-p-tags p {
+    margin-right: 4px;
+    padding: 0.2px;
+    color: gray;
+
+}
+
+.info-footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-footer p{
+    margin-right: 15px;
+    padding: 0.2px;
+    font-weight: 500;
+}
+
+.circles{
+    color: blue;
+}
+
+
+.containers{
+    display: flex; /* Use flexbox for layout */
+      justify-content: space-between; /* Space items evenly horizontally */
+      flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.header-side{
+    flex: 1;
+    padding: 20px;
+}
