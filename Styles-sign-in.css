@@ -1,1 +1,114 @@
-/*Rhett's Style Sheet
+
+
+.container_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-right: 90px;
+}
+
+.container_flex img {
+    max-width: 50%; 
+    height: auto;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.rounded-input {
+    width: 300px; 
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    box-sizing: border-box; 
+}
+
+.input-with-icon,
+.input-with-icon2,
+.input-with-icon3 {
+    padding-left: 24px; 
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px; 
+}
+
+.sign-in-button {
+    width: 200px; 
+    padding: 15px;
+    background-color: #1a7bbb;
+    color: #fff;
+    border: none;
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    background-color: #2980b9;
+}
+
+
+.input-with-icon3 {
+    padding-left: 24px; 
+    background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-unlock" viewBox="0 0 16 16"><path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2M3 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px; 
+}
+
+.input-with-icon2 {
+    padding-left: 24px; 
+    background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-heart" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.8 2.8 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124q.219.416.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442q.33-.421.55-.836L15 11.105V5.383l-3.002 1.801a2.8 2.8 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/></svg>');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px; 
+}
+
+.input-with-icon {
+    padding-left: 24px;
+    background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px; 
+}
+
+.sign-in-paragraph {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+
+.paragraph_above_leftside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 100px; 
+    box-sizing: border-box;
+    height: 20%;
+}
+
+.sign-up-button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1a7bbb;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background-color: #2980b9;
+}
