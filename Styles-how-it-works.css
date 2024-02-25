@@ -1,1 +1,71 @@
-/*Adan's Style Sheet
+.nav-bar {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.double-tap {
+    display: flex;
+}
+
+.two-btns {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.h-tags {
+    display: flex;
+    justify-content: center;
+}
+
+.hsixtag {
+    color: grey;
+}
+
+.SignUpChat-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.four-p-tags {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.four-p-tags p {
+    margin-right: 4px;
+    padding: 0.2px;
+    color: gray;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-footer p {
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.circles {
+    color: blue;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.header-side {
+    flex: 1;
+    padding: 20px;
+    
+}
