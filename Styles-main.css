@@ -18,97 +18,63 @@
     display: flex;
 }
 
-/*--------------------------*/
+/*-----------------*/
 
-.container {
+.info-footer {
     display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    justify-content: start;
+} 
+
+.info-footer p{
+    padding-right: 25px;
+    margin-top: auto;
+    text-size-adjust: auto;
+    font-weight: 500;
 }
 
-.col {
-    flex: auto;
-}
-
-/*---------------------------------------------------*/
-
-.row-3{
-    color: #858484;
-}
-
-
-
-
-
-/*---------------------------------------------------*/
-.row-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /
-}
-
-.btn {
-    display: flex;
-}
-
-.btns-2 {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.styled-btns {
-    background-color: white;
+.circles{
     color: #0850f8;
-    border: 2px solid #0850f8;
-    padding: 10px;
 }
 
-.btns-2:first-child {
+#col-1{
+    min-width: 540px;
+    max-height: 500px;
+}
+
+.h4-tag{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#gray-text{
+    color: rgb(148, 146, 146);
+    margin-bottom: 40px;
+}
+
+#img-1{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.btns{
+    border-radius: 7px;
+    border: 1px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.btns-1{
     background-color: #0850f8;
     color: white;
-    text-align: center;
     padding: 10px;
-    border: #0850f8;
+    border: 1px solid #0850f8;
+    margin-right: 10px;
 }
 
-/*---------------------------------------------------*/
-
-.row-5{
-    font-size: 1.2rem;
-    color: #858484;
-}
-
-
-/*---------------------------------------------------*/
-
-
-.row-6 {
-    display: flex;
-    font-size: 80%;
-}
-
-
-/*---------------------------------------------------*/
-
-.col.col-2{
-    display: flex;
-}
-
-.col-2{
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    padding-bottom: 1.2%;
-    align-items: center;
-    
-
+.btns-2{
+    background-color: #ffffff;
+    color:  #0850f8;
+    padding: 10px;
+    border: 1px solid #0850f8;
 }
