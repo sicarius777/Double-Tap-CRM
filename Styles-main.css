@@ -9,6 +9,7 @@
     display: flex;
 }
 
+
 .double-tap {
     display: flex;
 }
@@ -17,58 +18,97 @@
     display: flex;
 }
 
-.header {
+/*--------------------------*/
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.col {
+    flex: auto;
+}
+
+/*---------------------------------------------------*/
+
+.row-3{
+    color: #858484;
+}
+
+
+
+
+
+/*---------------------------------------------------*/
+.row-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /
+}
+
+.btn {
     display: flex;
 }
 
-.h-tags {
-    display: ;
+.btns-2 {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-.hsixtag {
-    color: gray;
+.styled-btns {
+    background-color: white;
+    color: #0850f8;
+    border: 2px solid #0850f8;
+    padding: 10px;
 }
 
-.SignUpChat {
-    display: ;
+.btns-2:first-child {
+    background-color: #0850f8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: #0850f8;
 }
 
-.four-p-tags {
+/*---------------------------------------------------*/
+
+.row-5{
+    font-size: 1.2rem;
+    color: #858484;
+}
+
+
+/*---------------------------------------------------*/
+
+
+.row-6 {
     display: flex;
-    justify-content: flex-start;
-
+    font-size: 80%;
 }
 
-.four-p-tags p {
-    margin-right: 4px;
-    padding: 0.2px;
-    color: gray;
 
-}
+/*---------------------------------------------------*/
 
-.info-footer{
+.col.col-2{
     display: flex;
-    justify-content: flex-start;
 }
 
-.info-footer p{
-    margin-right: 15px;
-    padding: 0.2px;
-    font-weight: 500;
-}
+.col-2{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    padding-bottom: 1.2%;
+    align-items: center;
+    
 
-.circles{
-    color: blue;
-}
-
-
-.containers{
-    display: flex; /* Use flexbox for layout */
-      justify-content: space-between; /* Space items evenly horizontally */
-      flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-}
-
-.header-side{
-    flex: 1;
-    padding: 20px;
 }
